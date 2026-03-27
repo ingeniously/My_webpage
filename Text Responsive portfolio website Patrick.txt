@@ -1,9 +1,9 @@
 ========== HEADER ==========
 .nav__logo
-Patrick <span>Moz</span>
+Cedric <span>Bassole</span>
 
 .nav__link
-Home - About - Services - Projects - Contact
+Home - About - Skills - Research - Projects - Contact
 
 
 ========== HOME ==========
@@ -11,26 +11,20 @@ Home - About - Services - Projects - Contact
 Hello, <span>I’m</span>
 
 .home__title
-Patrick Moz
+Cedric Bassole
 
 .home__education
-Front-end Developer
+Autonomous Systems Researcher
 
 .home__description
-With knowledge in web development and 
-design, I offer the best projects resulting 
-in quality work.
+MSc Student and GKS Scholar at Dongguk University, specializing in intelligent decision-making and multimodal reasoning for autonomous vehicles and unmanned transportation systems.
 
 .button
 Let's Talk
 
 .home__social
-https://github.com/
-https://dribbble.com/
-https://www.linkedin.com/
-
-.home__social-icon (clip-path)
-polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)
+https://github.com/ingeniously
+https://www.linkedin.com/in/cedric-françois-bassole
 
 
 ========== ABOUT ==========
@@ -41,10 +35,7 @@ My <span>Intro</span>
 About Me
 
 .about__description
-Frontend developer, I create web pages with 
-UI / UX user interface, I have years of 
-experience and many clients are happy with the 
-projects carried out.
+An Autonomous Intelligent Systems researcher with a strong foundation in Electrical Engineering and Industrial Electronics. My work focuses on bridging low-level system implementation with high-level AI reasoning architectures to create safe, interpretable, and efficient autonomous systems.
 
 .button
 Contact Me
@@ -58,58 +49,75 @@ Favorite <span>Skills</span>
 My Skills
 
 .skills__description
-See fully what skills I have and perform, 
-to develop the projects for you.
-
-.button
-See Projects
+My expertise spans from foundational engineering and robotics to state-of-the-art AI model development and research.
 
 .skills__item
-HTML & CSS
-JavaScript
-Bootstrap
-React
+AI & Machine Learning
+Multimodal Models (VLA)
+AI Agent Reasoning (CoT, ToT)
+PyTorch & Python
+Contrastive Learning
 
-Git & GitHub
-Figma
-Sketch
+Autonomous Systems (CARLA)
+Robotics & Control Systems
+Embedded Systems (AVR, ESP)
+MATLAB/Simulink & SolidWorks
 
 
-========== SERVICES ==========
+========== SERVICES (Renamed to RESEARCH) ==========
 .section__subtitle
-My <span>Services
+My <span>Focus</span>
 
 .section__title
-What I Do
+Research Interests
 
 .services__title .services__description
-Web Developer
-Development of custom web pages. 
-Using current technologies and 
-libraries of the labor field.
+Autonomous Intelligent Systems (AIS)
+Researching safety-aware trajectory planning, motion detection, and decision-making for autonomous vehicles and unmanned intelligence systems.
 
-UI/UX Designer
-I offer design of web interfaces and 
-mobile applications, design made in 
-figma, adobe xd and sketch.
+Vision-Language Reasoning
+Building and fine-tuning Vision-Language-Action (VLA) and Large Multimodal Models (LMMs) for safety-critical environments.
 
-Graphic Design
-I make designs at the client's request, 
-banner design, posters, digital 
-designs among others.
+Simulation-to-Real Alignment
+Developing and testing AI agents in high-fidelity simulators like CARLA to ensure robust performance before real-world deployment.
 
 
 ========== PROJECTS ==========
 .section__subtitle
-My <span>Jobs</span>
+My <span>Work</span>
 
 .section__title
-Recent Projects
+Publications & Projects
 
 .projects__subtitle .projects__title .projects__button
-Web
-Modern website
-View demo
+CVPR 2026
+HybridDriveVLA
+View Paper
+
+.projects__subtitle .projects__title .projects__button
+Complex & Intelligent Systems
+Physics-Informed NN (Battery SOH)
+View Paper
+
+.projects__subtitle .projects__title .projects__button
+Applied Sciences
+Enhanced RAG with LoRA
+View Paper
+
+.projects__subtitle .projects__title .projects__button
+Neurocomputing (Under Review)
+Safety-aware Trajectory Prediction
+View Details
+
+.projects__subtitle .projects__title .projects__button
+Knowledge-Based Systems (Under Review)
+Debating Agent Router (MoE)
+View Details
+
+.projects__subtitle .projects__title .projects__button
+Internship Project
+GPRS Transmitter Design
+View Details
 
 
 ========== CONTACT ==========
@@ -128,50 +136,15 @@ Enter your message
 Send Message
 
 
-========== EMAIL JS CONTACT ==========
-Before proceeding, I recommend creating your EmailJs account(https://www.emailjs.com/)
-
-// serviceID - templateID - #form - publicKey
-
-	// Show sent message
-
-		Message sent successfully
-
-	// Remove message after five seconds
-
-	// Clear input fields
-
-	// Show error message
-
-		Message not sent (service error)
-
-
-* Copy this code into your (Email Template)
-
-Names: {{user_name}}
-
-Email: {{user_email}}
-
-Project: {{user_project}}
-
-Best wishes,
-EmailJS team
-
-
 ========== FOOTER ==========
 .footer__title
-Patrick <span>Moz</span>
+Cedric <span>Bassole</span>
 
 .footer__education
-Front-end Developer  
+Autonomous Systems Researcher
 
 .footer__social-link
-https://www.facebook.com/
-https://www.instagram.com/
-https://twitter.com/
+*Links to GitHub and LinkedIn*
 
 .footer__copy
-&#169; Copyright Bedimcode. All rights reserved
-
-.footer__social-icon (clip-path)
-polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)
+&#169; Copyright Cedric Francois Bassole. All rights reserved
