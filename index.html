@@ -3,72 +3,251 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <!--=============== FAVICON ===============-->
       <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-      <!--=============== REMIXICONS ===============-->
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
-
-      <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
-
-      <title>Responsive portfolio website - Bedimcode</title>
+      <title>Cedric F. Bassole | Autonomous Systems Researcher</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Cedric <span>Bassole</span></a>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                  <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                  <li class="nav__item"><a href="#services" class="nav__link">Research</a></li>
+                  <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+               </ul>
+               <div class="nav__close" id="nav-close"><i class="ri-close-line"></i></div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle"><i class="ri-menu-line"></i></div>
+         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <div class="home__content">
+                  <div class="home__data">
+                     <h3 class="home__subtitle">Hello, <span>I’m</span></h3>
+                     <h1 class="home__title">Cedric Bassole</h1>
+                     <h3 class="home__education">Autonomous Systems Researcher</h3>
+                     <p class="home__description">
+                        MSc Student and GKS Scholar at Dongguk University, specializing in intelligent decision-making and multimodal reasoning for autonomous vehicles and unmanned transportation systems.
+                     </p>
+                     <a href="#contact" class="button">Let's Talk</a>
+                  </div>
+
+                  <div class="home__social">
+                     <a href="https://github.com/ingeniously" target="_blank" class="home__social-link"><i class="ri-github-line"></i></a>
+                     <a href="https://www.linkedin.com/in/cedric-françois-bassole" target="_blank" class="home__social-link"><i class="ri-linkedin-box-line"></i></a>
+                  </div>
+               </div>
+               <div class="home__image">
+                   <svg class="home__blob" viewBox="0 0 550 550" xmlns="http://www.w3.org/2000/svg">
+                     <mask id="maskBlob" mask-type="alpha"><path d="M439.37,329.387c35.63,60.2-1.125,133.48-52,170.82-50.875,37.34-121.375,38.5-168.25,11.25-46.875-27.25-70-87.12-87.625-141.62-17.625-54.5-30.125-103.62-27.75-152.75,2.375-49.13,19.375-98.25,51.875-132.75,32.5-34.5,80.875-54.5,131.625-50.37,50.75,4.12,103.875,32.25,138.625,76.62,34.75,44.37,51.125,106.62,33.5,159.25Z"/></mask>
+                     <g mask="url(#maskBlob)">
+                        <path d="M439.37,329.387c35.63,60.2-1.125,133.48-52,170.82-50.875,37.34-121.375,38.5-168.25,11.25-46.875-27.25-70-87.12-87.625-141.62-17.625-54.5-30.125-103.62-27.75-152.75,2.375-49.13,19.375-98.25,51.875-132.75,32.5-34.5,80.875-54.5,131.625-50.37,50.75,4.12,103.875,32.25,138.625,76.62,34.75,44.37,51.125,106.62,33.5,159.25Z"/>
+                        <rect x="0" y="0" width="550" height="550" fill="var(--first-color)" /><image class="home__img" x="60" y="70" width="450" height="450" href="assets/img/perfil.png" />
+                     </g>
+                  </svg>
+               </div>
+            </div>
          </section>
 
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
-            
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h3 class="section__subtitle">My <span>Intro</span></h3>
+                  <h2 class="section__title">About Me</h2>
+                  <p class="about__description">
+                     An Autonomous Intelligent Systems researcher with a strong foundation in Electrical Engineering and Industrial Electronics. My work focuses on bridging low-level system implementation with high-level AI reasoning architectures to create safe, interpretable, and efficient autonomous systems.
+                  </p>
+                  <a href="#contact" class="button">Contact Me</a>
+               </div>
+               <div class="about__image">
+                  <svg class="about__blob" viewBox="0 0 550 550" xmlns="http://www.w3.org/2000/svg">
+                     <mask id="maskBlob" mask-type="alpha"><path d="M439.37,329.387c35.63,60.2-1.125,133.48-52,170.82-50.875,37.34-121.375,38.5-168.25,11.25-46.875-27.25-70-87.12-87.625-141.62-17.625-54.5-30.125-103.62-27.75-152.75,2.375-49.13,19.375-98.25,51.875-132.75,32.5-34.5,80.875-54.5,131.625-50.37,50.75,4.12,103.875,32.25,138.625,76.62,34.75,44.37,51.125,106.62,33.5,159.25Z"/></mask>
+                     <g mask="url(#maskBlob)">
+                        <path d="M439.37,329.387c35.63,60.2-1.125,133.48-52,170.82-50.875,37.34-121.375,38.5-168.25,11.25-46.875-27.25-70-87.12-87.625-141.62-17.625-54.5-30.125-103.62-27.75-152.75,2.375-49.13,19.375-98.25,51.875-132.75,32.5-34.5,80.875-54.5,131.625-50.37,50.75,4.12,103.875,32.25,138.625,76.62,34.75,44.37,51.125,106.62,33.5,159.25Z"/>
+                        <rect x="0" y="0" width="550" height="550" fill="var(--first-color)" /><image class="about__img" x="60" y="70" width="450" height="450" href="assets/img/about-image.png" />
+                     </g>
+                  </svg>
+               </div>
+            </div>
          </section>
 
          <!--==================== SKILLS ====================-->
-         <section class="skills section">
-            
+         <section class="skills section" id="skills">
+            <div class="skills__container container grid">
+               <div class="skills__data">
+                  <h3 class="section__subtitle">Favorite <span>Skills</span></h3>
+                  <h2 class="section__title">My Skills</h2>
+                  <p class="skills__description">
+                     My expertise spans from foundational engineering and robotics to state-of-the-art AI model development and research.
+                  </p>
+                  <div class="skills__content">
+                     <ol class="skills__group">
+                        <li class="skills__item">AI & Machine Learning</li>
+                        <li class="skills__item">Multimodal Models (VLA)</li>
+                        <li class="skills__item">AI Agent Reasoning (CoT, ToT)</li>
+                        <li class="skills__item">PyTorch & Python</li>
+                        <li class="skills__item">Contrastive Learning</li>
+                     </ol>
+                     <ol class="skills__group" start="6">
+                        <li class="skills__item">Autonomous Systems (CARLA)</li>
+                        <li class="skills__item">Robotics & Control Systems</li>
+                        <li class="skills__item">Embedded Systems (AVR, ESP)</li>
+                        <li class="skills__item">MATLAB/Simulink & SolidWorks</li>
+                     </ol>
+                  </div>
+               </div>
+               <div class="skills__image">
+                   <svg class="skills__blob" viewBox="0 0 550 550" xmlns="http://www.w3.org/2000/svg">
+                     <mask id="maskBlob" mask-type="alpha"><path d="M439.37,329.387c35.63,60.2-1.125,133.48-52,170.82-50.875,37.34-121.375,38.5-168.25,11.25-46.875-27.25-70-87.12-87.625-141.62-17.625-54.5-30.125-103.62-27.75-152.75,2.375-49.13,19.375-98.25,51.875-132.75,32.5-34.5,80.875-54.5,131.625-50.37,50.75,4.12,103.875,32.25,138.625,76.62,34.75,44.37,51.125,106.62,33.5,159.25Z"/></mask>
+                     <g mask="url(#maskBlob)">
+                        <path d="M439.37,329.387c35.63,60.2-1.125,133.48-52,170.82-50.875,37.34-121.375,38.5-168.25,11.25-46.875-27.25-70-87.12-87.625-141.62-17.625-54.5-30.125-103.62-27.75-152.75,2.375-49.13,19.375-98.25,51.875-132.75,32.5-34.5,80.875-54.5,131.625-50.37,50.75,4.12,103.875,32.25,138.625,76.62,34.75,44.37,51.125,106.62,33.5,159.25Z"/>
+                        <rect x="0" y="0" width="550" height="550" fill="var(--first-color)" /><image class="skills__img" x="60" y="70" width="450" height="450" href="assets/img/skills-image.png" />
+                     </g>
+                  </svg>
+               </div>
+            </div>
          </section>
 
-         <!--==================== SERVICES ====================-->
+         <!--==================== RESEARCH INTERESTS ====================-->
          <section class="services section" id="services">
-            
+            <h3 class="section__subtitle">My <span>Focus</span></h3>
+            <h2 class="section__title">Research Interests</h2>
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <i class="ri-roadster-line services__icon"></i>
+                  <h3 class="services__title">Autonomous Intelligent Systems</h3>
+                  <p class="services__description">
+                     Researching safety-aware trajectory planning, motion detection, and decision-making for autonomous vehicles and unmanned intelligence systems.
+                  </p>
+               </article>
+               <article class="services__card">
+                  <i class="ri-mind-map services__icon"></i>
+                  <h3 class="services__title">Vision-Language Reasoning</h3>
+                  <p class="services__description">
+                     Building and fine-tuning Vision-Language-Action (VLA) and Large Multimodal Models (LMMs) for safety-critical environments.
+                  </p>
+               </article>
+               <article class="services__card">
+                  <i class="ri-gamepad-line services__icon"></i>
+                  <h3 class="services__title">Simulation-to-Real Alignment</h3>
+                  <p class="services__description">
+                     Developing and testing AI agents in high-fidelity simulators like CARLA to ensure robust performance before real-world deployment.
+                  </p>
+               </article>
+            </div>
          </section>
 
          <!--==================== PROJECTS ====================-->
          <section class="projects section" id="projects">
-            
+            <h3 class="section__subtitle">My <span>Work</span></h3>
+            <h2 class="section__title">Publications & Projects</h2>
+            <div class="projects__container container grid">
+               <!-- Make sure to add images for each project in assets/img/ -->
+               <article class="projects__card">
+                  <img src="assets/img/project-cvpr.jpg" alt="CVPR Project Image" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">CVPR 2026</span>
+                     <h3 class="projects__title">HybridDriveVLA</h3>
+                     <a href="LINK_TO_YOUR_CVPR_PAPER.pdf" class="projects__button" target="_blank">View Paper <i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+               <article class="projects__card">
+                  <img src="assets/img/project-cis.jpg" alt="Complex & Intelligent Systems Project" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Complex & Intelligent Systems</span>
+                     <h3 class="projects__title">Physics-Informed NN (Battery SOH)</h3>
+                     <a href="LINK_TO_CIS_PAPER.pdf" class="projects__button" target="_blank">View Paper <i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+               <article class="projects__card">
+                  <img src="assets/img/project-as.jpg" alt="Applied Sciences Project" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Applied Sciences</span>
+                     <h3 class="projects__title">Enhanced RAG with LoRA</h3>
+                     <a href="LINK_TO_AS_PAPER.pdf" class="projects__button" target="_blank">View Paper <i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+               <article class="projects__card">
+                  <img src="assets/img/project-neuro.jpg" alt="Neurocomputing Submission" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Neurocomputing (Under Review)</span>
+                     <h3 class="projects__title">Safety-aware Trajectory Prediction</h3>
+                     <a href="#" class="projects__button">Details Coming Soon <i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+               <article class="projects__card">
+                  <img src="assets/img/project-kbs.jpg" alt="KBS Submission" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Knowledge-Based Systems (Under Review)</span>
+                     <h3 class="projects__title">Debating Agent Router (MoE)</h3>
+                     <a href="#" class="projects__button">Details Coming Soon <i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+               <article class="projects__card">
+                  <img src="assets/img/project-gprs.jpg" alt="GPRS Project" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Internship Project</span>
+                     <h3 class="projects__title">GPRS Transmitter Design</h3>
+                     <a href="#" class="projects__button">View Details <i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+            </div>
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            
+            <h3 class="section__subtitle">Get In <span>Touch</span></h3>
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container grid">
+               <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact__form" id="contact-form">
+                  <div class="contact__group">
+                     <input type="text" name="user_name" required placeholder="Enter your name" class="contact__input">
+                     <input type="email" name="user_email" required placeholder="Enter your email" class="contact__input">
+                  </div>
+                  <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
+                  <p class="contact__message" id="contact-message"></p>
+                  <button type="submit" class="button contact__button">Send Message</button>
+               </form>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container">
+            <h1 class="footer__title">Cedric <span>Bassole</span></h1>
+            <p>Autonomous Systems Researcher</p>
+            <ul class="footer__list">
+               <li><a href="#about" class="footer__link">About</a></li>
+               <li><a href="#skills" class="footer__link">Skills</a></li>
+               <li><a href="#projects" class="footer__link">Projects</a></li>
+            </ul>
+            <ul class="footer__social">
+               <a href="https://github.com/ingeniously" target="_blank" class="footer__social-link"><i class="ri-github-line"></i></a>
+               <a href="https://www.linkedin.com/in/cedric-françois-bassole" target="_blank" class="footer__social-link"><i class="ri-linkedin-box-line"></i></a>
+            </ul>
+            <span class="footer__copy">&#169; Copyright Cedric Francois Bassole. All rights reserved</span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="#" class="scrollup" id="scroll-up"><i class="ri-arrow-up-line"></i></a>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-
-      <!--=============== EMAIL JS ===============-->
-      
-
-      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
       <script src="assets/js/main.js"></script>
    </body>
 </html>
