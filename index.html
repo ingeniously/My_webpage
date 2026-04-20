@@ -10,6 +10,31 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <title>Cedric Francois Yipene Bassole | AI Engineer & Researcher</title>
         <meta name="description" content=" Portfolio of Cedric-Francois Yipene Bassole, an AI Engineer and researcher specializing in Multimodal AI, Vision-Language-Action models, and AI Agents.">
+  
+        <!--===== CSS =====-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <style>
+            .work__container {
+                align-items: start;
+                /* Prevents grid items from stretching out of proportion */
+            }
+    
+            .work__img {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+                background-color: #fff;
+            }
+    
+            .work__img img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+                border-radius: 0.25rem;
+            }
+         </style>
+    
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -104,7 +129,7 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-react skills__icon'></i>
+                                <i class='bx bxs-car skills__icon'></i>
                                 <span class="skills__name">AUTONOMOUS SYSTEMS</span>
                             </div>
                             <div class="skills__bar skills__js"></div>
@@ -112,7 +137,7 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-car skills__icon'></i>
+                                <i class='bx bxl-react skills__icon'></i>
                                 <span class="skills__name">VLA MODELS</span>
                             </div>
                             <div class="skills__bar skills__ux"></div>
@@ -132,10 +157,24 @@
 
                 <div class="work__container bd-grid">
                     <a href="" class="work__img">
-                        <img src="assets/img/work1.png" alt="HybridDriveVLA (CVPR 2026)">
+                        <div class="work__thumbnail">
+                            <img src="assets/img/work1.png" alt="HybridDriveVLA (CVPR 2026)">
+                        </div>
+                        <div class="work__info">
+                            <span class="work__venue work__venue--conf">CVPR 2026</span>
+                            <h3 class="work__title">HybridDriveVLA</h3>
+                            <p class="work__desc">Vision-Language-Action Model with Visual CoT Reasoning and ToT Evaluation for Autonomous Driving</p>
+                        </div>
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work2.png" alt="Physics-informed neural network (Complex & Intelligent Systems)">
+                         <div class="work__thumbnail">
+                             <img src="assets/img/work2.png" alt="Physics-informed neural network (Complex & Intelligent Systems)">
+                        </div>
+                        <div class="work__info">
+                            <span class="work__venue work__venue--journal">Complex & Intelligent Systems</span>
+                            <h3 class="work__title">Physics-Informed Neural Network</h3>
+                            <p class="work__desc">PINN and Momentum Contrastive Learning for Battery State of Health Estimation</p>
+                        </div>
                     </a>
                     <a href="" class="work__img">
                         <img src="assets/img/work3.png" alt="Enhanced RAG (Applied Sciences)">
@@ -177,11 +216,20 @@
             <p class="footer__copy">&#169; Cedric Francois Yipene Bassole. All rigths reserved</p>
         </footer>
 
+    <!--===== MODAL =====-->
+    <div class="modal" id="work-modal">
+        <div class="modal__content">
+            <span class="modal__close" id="modal-close"><i class='bx bx-x'></i></span>
+            <h2 class="modal__title" id="modal-title"></h2>
+            <div class="modal__body" id="modal-body"></div>
+        </div>
+    </div>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
