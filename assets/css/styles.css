@@ -7,7 +7,7 @@
   --font-semi: 600;
   /*===== Colors =====*/
   /* HSL color mode */
-  --hue-color: 224;
+  --hue-color: 270;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Font and Typography =====*/
