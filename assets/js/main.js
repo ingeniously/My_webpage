@@ -66,7 +66,7 @@ const modalBody = document.getElementById('modal-body');
 const workData = {
     'work-vla': {
         title: 'HybridDriveVLA (CVPR 2026)',
-        body: ` <p><strong>HybridDriveVLA: Vision-Language-Action Model with Visual CoT Reasoning and ToT Evaluation for Autonomous Driving.</strong></p>
+        body: `<p><strong>HybridDriveVLA: Vision-Language-Action Model with Visual CoT Reasoning and ToT Evaluation for Autonomous Driving.</strong></p>
         <p>We introduced a Vision-Language-Action reasoning-driven framework that:</p>
         <ul>
             <li>🔹 Anticipates future driving scenes using Visual Chain-of-Thought (V-CoT)</li>
@@ -88,19 +88,6 @@ const workData = {
         </ul>
         <p>This research represents a significant step forward in building the "safety-critical" infrastructure necessary for the mass adoption of autonomous electric vehicles.</p>
         <p>I would like to extend my gratitude to my co-authors Jiwoo Jung and Prof. Yunsick Sung, and to Dongguk University for their continued support.</p>`
-    },
-    'work-debate': {
-        title: 'Debating Agent Router (Knowledge-Based Systems)',
-        body: `<p>I’m thrilled to share that our paper, <strong>"Debating Agent Router in Mixture of Vision-Language Model Experts for Autonomous Driving,"</strong> has been successfully accepted for publication in Knowledge-Based Systems (SCIE Q1).</p>
-        <p>In autonomous driving Visual Question Answering (VQA), traditional Mixture-of-Experts (MoE) routers rely on uninterpretable latent features from a single frame. Our work tackles this limitation by introducing a novel debate-based agentic router strategy that dynamically allocates computational resources based on progressive safety risk assessments.</p>
-        <p><strong>Key Innovations & Impact:</strong></p>
-        <ul>
-            <li>🔹 <strong>Progressive Debate Routing:</strong> We designed a multi-agent framework where two debate agents iteratively update a discrete safety risk level (Low, Medium, High) using bounding-box evidence. A judge agent monitors the debate state to trigger routing only when reasoning is sufficient.</li>
-            <li>🔹 <strong>Dynamic Expert Allocation:</strong> The system maps the adjudicated safety risk level directly to a Vision-Language expert hierarchy (e.g., 2B, 4B, 8B models), efficiently optimizing perception, planning, and prediction without unnecessary computation.</li>
-            <li>🔹 <strong>Auditable & Interpretable Decisions:</strong> Unlike black-box MoE routers, our framework outputs a transparent routing trace that records the trigger step, selected expert, risk level, and referenced physical objects.</li>
-            <li>🔹 <strong>State-of-the-Art Efficiency:</strong> Evaluated on the DriveLM-nuScenes benchmark, the framework achieved a superior ROUGE-L score (0.451) while significantly reducing computational overhead by frequently routing to moderately-sized experts for medium-risk cases.</li>
-        </ul>
-        <p>This advancement paves the way for transparent, safety-critical AI systems in autonomous driving. A huge thank you to my co-authors and supervisors for their incredible support!</p>`
     }
 };
 
